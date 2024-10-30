@@ -8,7 +8,7 @@ body{
 
 .contanier-login{
 
-    background: #fff;
+    background: #f3f3f3;
     border-radius: 20px; 
     box-shadow: 0px 19px 40px 0px rgba(0, 0, 0, 0.05);  
     padding: 26px;
@@ -95,6 +95,10 @@ button{
     color:#FFF; 
     cursor: pointer;
 
+}
+
+button:hover{
+    background: #4b37fff1;
 }
 
 form{
