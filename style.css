@@ -201,6 +201,9 @@ padding: 14px;
 
 }
 
+.text-sign-up span{
+    cursor: pointer;
+}
 
 
 @media (max-width:1040px){

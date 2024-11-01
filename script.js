@@ -41,7 +41,7 @@ function noturnoModo(){
 
     document.body.style.background = "#011d40";
     document.querySelector(".contanier-login").style.background = "#1d1d1d";
-    document.querySelector(".contanier-login").style.border = "#cccccc solid 2px";
+    document.querySelector(".contanier-login").style.border = "#cccccc outset 2px";
     let paragrafo = document.querySelectorAll("p")
 
     for(let i = 0 ; i < paragrafo.length ; i++){
@@ -58,12 +58,12 @@ function noturnoModo(){
 
     for(let x = 0 ; x < alterarCorBotao.length ; x++){
 
-        alterarCorBotao[x].style.background = '#011d40';
+        alterarCorBotao[x].style.background = '#474747';
 
     }
 
     for(i = 0 ; i < alterarBotao.length ; i++){
-        alterarBotao[i].style.border = "#cccccc solid 1px";
+        alterarBotao[i].style.border = "#cccccc groove 2px";
 
     }
 
